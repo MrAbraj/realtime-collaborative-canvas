@@ -1,0 +1,54 @@
+.panel {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 50;
+  width: 260px;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.14);
+  color: #333;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  font-size: 12px;
+}
+
+.summary {
+  cursor: pointer;
+  font-weight: 700;
+  user-select: none;
+}
+
+.content {
+  margin-top: 8px;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 2px 0;
+}
+
+.metricLabel {
+  color: #666;
+}
+
+.metricValue {
+  font-family: monospace;
+  color: #333;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 6px 0;
+}
+
+.invalidMessage {
+  margin-top: 4px;
+}
